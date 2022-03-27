@@ -1,0 +1,33 @@
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.subTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.boxInfos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contentInfo {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-right: 1.5rem;
+
+    img {
+        max-width: 1.5rem;
+        margin-right: 0.25rem;
+    }
+
+    span {
+        font-size: 0.75rem;
+        color: #BBBBBB;
+    }
+}

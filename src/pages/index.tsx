@@ -1,4 +1,5 @@
 import { GetStaticProps } from 'next';
+import Post from '../components/Post';
 
 import { getPrismicClient } from '../services/prismic';
 
@@ -26,9 +27,9 @@ interface HomeProps {
 
 export default function Home() {
   return (
-      <h1 className={commonStyles.PositionInBody}>
-        Hello, world
-      </h1>
+      <div className={commonStyles.PositionInBody}>
+        <Post />
+      </div>
   )
 }
 
